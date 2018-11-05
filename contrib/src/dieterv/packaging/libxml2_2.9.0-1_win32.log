@@ -1,0 +1,867 @@
+++ lt_cv_deplibs_check_method=pass_all
+++ CC=gcc
+++ LDFLAGS=-Wl,--enable-auto-image-base
+++ CFLAGS=-O2
+++ ./configure --disable-static --without-iconv --without-modules --with-zlib=/devel/dist/win32/zlib-1.2.5-2 --prefix=/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9
+checking build system type... i686-pc-mingw32
+checking host system type... i686-pc-mingw32
+checking for a BSD-compatible install... /bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.exe
+checking for suffix of executables... .exe
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking whether ln -s works... no, using cp -p
+checking how to run the C preprocessor... gcc -E
+checking for rm... /bin/rm
+checking for mv... /bin/mv
+checking for tar... /bin/tar
+checking for perl... /bin/perl
+checking for wget... /bin/wget
+checking for xmllint... /usr/bin/xmllint
+checking for xsltproc... /usr/bin/xsltproc
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... c:/mingw/mingw32/bin/ld.exe
+checking if the linker (c:/mingw/mingw32/bin/ld.exe) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /mingw/bin/nm
+checking the name lister (/mingw/bin/nm) interface... BSD nm
+checking the maximum length of command line arguments... 8192
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert i686-pc-mingw32 file names to i686-pc-mingw32 format... func_convert_file_msys_to_w32
+checking how to convert i686-pc-mingw32 file names to toolchain format... func_convert_file_msys_to_w32
+checking for c:/mingw/mingw32/bin/ld.exe option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... (cached) pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... func_cygming_dll_for_implib
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /mingw/bin/nm output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... no
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -DDLL_EXPORT -DPIC
+checking if gcc PIC flag -DDLL_EXPORT -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... /bin/rm: cannot lstat `conftest*': No such file or directory
+yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (c:/mingw/mingw32/bin/ld.exe) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... /bin/rm: cannot lstat `conftest*': No such file or directory
+yes
+checking dynamic linker characteristics... Win32 ld.exe
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+Checking zlib
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for gzread in -lz... yes
+Checking lzma
+checking lzma.h usability... no
+checking lzma.h presence... no
+checking for lzma.h... no
+Checking headers
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for ANSI C header files... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for unistd.h... (cached) yes
+checking ctype.h usability... yes
+checking ctype.h presence... yes
+checking for ctype.h... yes
+checking dirent.h usability... yes
+checking dirent.h presence... yes
+checking for dirent.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking for sys/stat.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking ansidecl.h usability... yes
+checking ansidecl.h presence... yes
+checking for ansidecl.h... yes
+checking ieeefp.h usability... no
+checking ieeefp.h presence... no
+checking for ieeefp.h... no
+checking nan.h usability... no
+checking nan.h presence... no
+checking for nan.h... no
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking fp_class.h usability... no
+checking fp_class.h presence... no
+checking for fp_class.h... no
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking for stdlib.h... (cached) yes
+checking for sys/socket.h... no
+checking for netinet/in.h... no
+checking for arpa/inet.h... no
+checking netdb.h usability... no
+checking netdb.h presence... no
+checking for netdb.h... no
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/select.h usability... no
+checking sys/select.h presence... no
+checking for sys/select.h... no
+checking poll.h usability... no
+checking poll.h presence... no
+checking for poll.h... no
+checking sys/mman.h usability... no
+checking sys/mman.h presence... no
+checking for sys/mman.h... no
+checking sys/timeb.h usability... yes
+checking sys/timeb.h presence... yes
+checking for sys/timeb.h... yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking for arpa/nameser.h... no
+checking for resolv.h... no
+checking dl.h usability... no
+checking dl.h presence... no
+checking for dl.h... no
+checking for dlfcn.h... (cached) no
+Checking types
+checking for uint32_t... yes
+Checking libraries
+checking for strftime... yes
+checking for strdup... yes
+checking for strndup... no
+checking for strerror... yes
+checking for finite... yes
+checking for isnand... no
+checking for fp_class... no
+checking for class... no
+checking for fpclass... yes
+checking for strftime... (cached) yes
+checking for localtime... yes
+checking for gettimeofday... yes
+checking for ftime... yes
+checking for stat... yes
+checking for _stat... yes
+checking for signal... yes
+checking for rand... yes
+checking for rand_r... no
+checking for srand... yes
+checking for time... yes
+checking for isascii... yes
+checking for mmap... no
+checking for munmap... no
+checking for putenv... yes
+checking for va_copy... yes
+checking for library containing gethostent... no
+checking for library containing setsockopt... no
+checking for library containing connect... no
+checking for type of socket length (socklen_t)... configure: WARNING: could not determine
+checking whether to enable IPv6... no
+checking for isnan... yes
+checking for isinf... no
+checking for isinf in -lm... no
+checking for python... no
+Checking configuration requirements
+Enabling multithreaded support
+Disabling ICONV support
+Disabling ICU support
+Enabled Schematron support
+Enabled Schemas/Relax-NG support
+checking for printf... yes
+checking for sprintf... yes
+checking for fprintf... yes
+checking for snprintf... yes
+checking for vfprintf... yes
+checking for vsprintf... yes
+checking for vsnprintf... yes
+checking for sscanf... yes
+Disabling code coverage for GCC
+configure: creating ./config.status
+config.status: creating libxml2.spec
+config.status: creating Makefile
+config.status: creating include/Makefile
+config.status: creating include/libxml/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/examples/Makefile
+config.status: creating doc/devhelp/Makefile
+config.status: creating example/Makefile
+config.status: creating python/Makefile
+config.status: creating python/tests/Makefile
+config.status: creating xstc/Makefile
+config.status: creating include/libxml/xmlversion.h
+config.status: creating xml2-config
+config.status: creating libxml-2.0.pc
+config.status: creating libxml-2.0-uninstalled.pc
+config.status: creating python/setup.py
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+/bin/rm: cannot lstat `libtoolT': No such file or directory
+Done configuring
+++ make -j4 install
+make  install-recursive
+make[1]: Entering directory `/devel/src/dependencies/libxml2/libxml2-2.9.0'
+Making install in include
+make[2]: Entering directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/include'
+Making install in libxml
+make[3]: Entering directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/include/libxml'
+make[4]: Entering directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/include/libxml'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/include/libxml2/libxml" || /bin/mkdir -p "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/include/libxml2/libxml"
+ /bin/install -c -m 644 SAX.h entities.h encoding.h parser.h parserInternals.h xmlerror.h HTMLparser.h HTMLtree.h debugXML.h tree.h list.h hash.h xpath.h xpathInternals.h xpointer.h xinclude.h xmlIO.h xmlmemory.h nanohttp.h nanoftp.h uri.h valid.h xlink.h xmlversion.h DOCBparser.h catalog.h threads.h globals.h c14n.h xmlautomata.h xmlregexp.h xmlmodule.h xmlschemas.h schemasInternals.h xmlschemastypes.h xmlstring.h xmlunicode.h xmlreader.h relaxng.h dict.h '/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/include/libxml2/libxml'
+ /bin/install -c -m 644 SAX2.h xmlexports.h xmlwriter.h chvalid.h pattern.h xmlsave.h schematron.h '/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/include/libxml2/libxml'
+make[4]: Leaving directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/include/libxml'
+make[3]: Leaving directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/include/libxml'
+make[3]: Entering directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/include'
+make[4]: Entering directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/include'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/include'
+make[3]: Leaving directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/include'
+make[2]: Leaving directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/include'
+Making install in .
+make[2]: Entering directory `/devel/src/dependencies/libxml2/libxml2-2.9.0'
+  CC     SAX.lo
+  CC     encoding.lo
+  CC     entities.lo
+  CC     error.lo
+encoding.c:3803:1: warning: string length '688' is greater than the length '509' ISO C90 compilers are required to support
+encoding.c:3913:1: warning: string length '624' is greater than the length '509' ISO C90 compilers are required to support
+  CC     parserInternals.lo
+  CC     tree.lo
+  CC     parser.lo
+  CC     hash.lo
+parser.c: In function 'xmlParseInNodeContext':
+parser.c:13492:9: warning: pointer targets in passing argument 1 of 'xmlFindCharEncodingHandler' differ in signedness
+./include/libxml/encoding.h:175:2: note: expected 'const char *' but argument is of type 'const xmlChar *'
+  CC     list.lo
+  CC     xmlIO.lo
+  CC     xmlmemory.lo
+  CC     uri.lo
+  CC     valid.lo
+  CC     xlink.lo
+  CC     HTMLparser.lo
+uri.c: In function 'xmlCanonicPath':
+uri.c:2472:14: warning: pointer targets in assignment differ in signedness
+uri.c:2481:4: warning: pointer targets in assignment differ in signedness
+uri.c:2482:2: warning: pointer targets in passing argument 1 of 'strncpy' differ in signedness
+c:\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/string.h:52:39: note: expected 'char *' but argument is of type 'xmlChar *'
+uri.c:2482:2: warning: pointer targets in passing argument 2 of 'strncpy' differ in signedness
+c:\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/string.h:52:39: note: expected 'const char *' but argument is of type 'const xmlChar *'
+uri.c:2484:12: warning: pointer targets in assignment differ in signedness
+uri.c:2489:4: warning: pointer targets in assignment differ in signedness
+uri.c:2390:9: warning: unused variable 'i'
+  CC     HTMLtree.lo
+  CC     debugXML.lo
+  CC     xpath.lo
+  CC     xpointer.lo
+  CC     xinclude.lo
+In file included from xpath.c:171:0:
+timsort.h: In function 'libxml_domnode_tim_sort_resize':
+timsort.h:318:7: warning: format '%lu' expects type 'long unsigned int', but argument 3 has type 'unsigned int'
+xpath.c: In function 'xmlXPathRegisterFuncNS':
+xpath.c:4870:5: warning: ISO C forbids passing argument 4 of 'xmlHashAddEntry2' between function pointer and 'void *'
+./include/libxml/hash.h:128:4: note: expected 'void *' but argument is of type 'xmlXPathFunction'
+xpath.c: In function 'xmlXPathFunctionLookupNS':
+xpath.c:4951:24: warning: ISO C forbids assignment between function pointer and 'void *'
+xpath.c: In function 'xmlXPathCompOpEval':
+xpath.c:13535:41: warning: ISO C forbids assignment between function pointer and 'void *'
+xpath.c:13562:31: warning: ISO C forbids assignment between function pointer and 'void *'
+xpath.c: At top level:
+trionan.c:218:1: warning: 'trio_is_negative' defined but not used
+  CC     nanohttp.lo
+  CC     nanoftp.lo
+  CC     catalog.lo
+nanohttp.c: In function 'xmlNanoHTTPConnectAttempt':
+nanohttp.c:992:9: warning: pointer targets in passing argument 5 of 'getsockopt' differ in signedness
+c:\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/winsock2.h:543:32: note: expected 'int *' but argument is of type 'unsigned int *'
+nanoftp.c: In function 'xmlNanoFTPGetConnection':
+nanoftp.c:1471:43: warning: pointer targets in passing argument 3 of 'getsockname' differ in signedness
+c:\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/winsock2.h:542:32: note: expected 'int *' but argument is of type 'unsigned int *'
+nanoftp.c:1484:43: warning: pointer targets in passing argument 3 of 'getsockname' differ in signedness
+c:\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/winsock2.h:542:32: note: expected 'int *' but argument is of type 'unsigned int *'
+  CC     globals.lo
+catalog.c: In function 'xmlLoadCatalogs':
+catalog.c:3247:9: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+c:\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/string.h:49:40: note: expected 'const char *' but argument is of type 'xmlChar *'
+  CC     threads.lo
+  CC     c14n.lo
+  CC     xmlstring.lo
+  CC     buf.lo
+threads.c: In function '__xmlGlobalInitMutexLock':
+threads.c:459:9: warning: value computed is not used
+threads.c: In function 'xmlOnceInit':
+threads.c:960:9: warning: pointer targets in passing argument 1 of 'InterlockedIncrement' differ in signedness
+c:\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/winbase.h:1857:13: note: expected 'volatile LONG *' but argument is of type 'DWORD *'
+threads.c: At top level:
+threads.c:1002:1: warning: no previous prototype for 'DllMain'
+threads.c: In function 'DllMain':
+threads.c:1002:19: warning: unused parameter 'hinstDLL'
+threads.c:1002:53: warning: unused parameter 'lpvReserved'
+  CC     xmlregexp.lo
+  CC     xmlschemas.lo
+  CC     xmlschemastypes.lo
+  CC     xmlunicode.lo
+  CC     xmlreader.lo
+  CC     relaxng.lo
+  CC     dict.lo
+dict.c: In function 'xmlDictAddString':
+dict.c:237:29: warning: comparison between signed and unsigned integer expressions
+dict.c: In function 'xmlDictAddQString':
+dict.c:305:29: warning: comparison between signed and unsigned integer expressions
+  CC     SAX2.lo
+  CC     xmlwriter.lo
+  CC     legacy.lo
+  CC     chvalid.lo
+  CC     pattern.lo
+  CC     xmlsave.lo
+  CC     xmlmodule.lo
+  CC     schematron.lo
+  CC     xzlib.lo
+  CC     xmllint.o
+  CC     testdso.lo
+xmllint.c:31:0: warning: "_WINSOCKAPI_" redefined
+config.h:318:0: note: this is the location of the previous definition
+  CC     xmlcatalog.o
+  CC     testSchemas.o
+  CC     testRelax.o
+  CC     testSAX.o
+  CC     testHTML.o
+  CC     testXPath.o
+  CC     testURI.o
+  CC     testThreadsWin32.o
+  CC     testC14N.o
+  CC     testAutomata.o
+testC14N.c: In function 'test_c14n':
+testC14N.c:111:6: warning: implicit declaration of function 'write'
+testC14N.c:111:6: warning: nested extern declaration of 'write'
+testThreadsWin32.c:21:5: warning: initialization discards qualifiers from pointer target type
+testThreadsWin32.c:22:5: warning: initialization discards qualifiers from pointer target type
+testThreadsWin32.c:23:5: warning: initialization discards qualifiers from pointer target type
+testThreadsWin32.c:24:5: warning: initialization discards qualifiers from pointer target type
+testThreadsWin32.c:25:5: warning: initialization discards qualifiers from pointer target type
+testThreadsWin32.c:26:5: warning: initialization discards qualifiers from pointer target type
+testThreadsWin32.c:27:5: warning: initialization discards qualifiers from pointer target type
+testThreadsWin32.c:86:1: warning: function declaration isn't a prototype
+  CC     testRegexp.o
+  CC     testReader.o
+  CC     testapi.o
+  CC     testModule.o
+  CC     runtest.o
+runtest.c: In function 'glob':
+runtest.c:118:42: warning: unused parameter 'flags'
+runtest.c:119:21: warning: unused parameter 'errfunc'
+testapi.c:18033:25: warning: 'gen_xmlSchematronPtr' defined but not used
+testapi.c:18036:13: warning: 'des_xmlSchematronPtr' defined but not used
+testapi.c:18053:35: warning: 'gen_xmlSchematronParserCtxtPtr' defined but not used
+testapi.c:18056:13: warning: 'des_xmlSchematronParserCtxtPtr' defined but not used
+testapi.c:34482:27: warning: 'gen_xmlSAXHandlerPtr_ptr' defined but not used
+testapi.c:34485:13: warning: 'des_xmlSAXHandlerPtr_ptr' defined but not used
+  CC     runsuite.o
+  CC     testchar.o
+  CC     testdict.o
+  CC     runxmlconf.o
+  CC     testrecurse.o
+testrecurse.c: In function 'glob':
+testrecurse.c:72:42: warning: unused parameter 'flags'
+testrecurse.c:73:21: warning: unused parameter 'errfunc'
+sed -e 's?\@XML_LIBDIR\@?-L/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/lib?g' \
+	    -e 's?\@XML_INCLUDEDIR\@?-I/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/include/libxml2?g' \
+	    -e 's?\@VERSION\@?2.9.0?g' \
+	    -e 's?\@XML_LIBS\@?-lxml2 -L/devel/dist/win32/zlib-1.2.5-2/lib -lz    ?g' \
+	       < ./xml2Conf.sh.in > xml2Conf.tmp \
+	&& mv xml2Conf.tmp xml2Conf.sh
+  CC     testlimits.o
+testlimits.c: In function 'saxTest':
+testlimits.c:1290:13: warning: format '%lu' expects type 'long unsigned int', but argument 4 has type 'size_t'
+testlimits.c:1296:21: warning: format '%lu' expects type 'long unsigned int', but argument 4 has type 'size_t'
+testlimits.c: In function 'readerTest':
+testlimits.c:1345:25: warning: format '%lu' expects type 'long unsigned int', but argument 4 has type 'size_t'
+testlimits.c:1355:25: warning: format '%lu' expects type 'long unsigned int', but argument 4 has type 'size_t'
+  CCLD   libxml2.la
+  CCLD   testdso.la
+Creating library file: .libs/testdso.dll.a
+Creating library file: .libs/libxml2.dll.a
+  CCLD   xmllint.exe
+  CCLD   testSchemas.exe
+  CCLD   xmlcatalog.exe
+  CCLD   testRelax.exe
+  CCLD   testSAX.exe
+  CCLD   testHTML.exe
+  CCLD   testXPath.exe
+  CCLD   testURI.exe
+  CCLD   testThreads.exe
+  CCLD   testC14N.exe
+  CCLD   testAutomata.exe
+  CCLD   testRegexp.exe
+  CCLD   testReader.exe
+  CCLD   testapi.exe
+  CCLD   testModule.exe
+  CCLD   runsuite.exe
+  CCLD   runtest.exe
+  CCLD   testchar.exe
+  CCLD   testdict.exe
+  CCLD   runxmlconf.exe
+  CCLD   testrecurse.exe
+  CCLD   testlimits.exe
+make[3]: Entering directory `/devel/src/dependencies/libxml2/libxml2-2.9.0'
+test -z "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/lib" || /bin/mkdir -p "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/lib"
+test -z "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/bin" || /bin/mkdir -p "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/bin"
+test -z "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/lib" || /bin/mkdir -p "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/lib"
+/bin/mkdir -p /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/doc/libxml2-2.9.0
+/bin/install -c -m 0644 ./Copyright /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/doc/libxml2-2.9.0
+/bin/mkdir -p /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/doc/libxml2-2.9.0/examples
+/bin/install -c -m 0644 ./xmllint.c /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/doc/libxml2-2.9.0/examples
+/bin/install -c -m 0644 ./testSAX.c /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/doc/libxml2-2.9.0/examples
+ /bin/sh ./libtool   --mode=install /bin/install -c   libxml2.la '/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/lib'
+/bin/install -c -m 0644 ./testHTML.c /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/doc/libxml2-2.9.0/examples
+/bin/install -c -m 0644 ./testXPath.c /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/doc/libxml2-2.9.0/examples
+test -z "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/aclocal" || /bin/mkdir -p "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/aclocal"
+ /bin/install -c xml2-config '/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/bin'
+ /bin/install -c -m 644 xml2Conf.sh '/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/lib'
+test -z "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/man/man1" || /bin/mkdir -p "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/man/man1"
+test -z "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/man/man3" || /bin/mkdir -p "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/man/man3"
+ /bin/install -c -m 644 libxml.m4 '/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/aclocal'
+test -z "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/lib/pkgconfig" || /bin/mkdir -p "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/lib/pkgconfig"
+ /bin/install -c -m 644 libxml.3 '/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/man/man3'
+ /bin/install -c -m 644 xml2-config.1 '/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/man/man1'
+ /bin/install -c -m 644 libxml-2.0.pc '/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/lib/pkgconfig'
+libtool: install: /bin/install -c .libs/libxml2.dll.a /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/lib/libxml2.dll.a
+libtool: install: base_file=`basename libxml2.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libxml2.la'i; echo libxml2-2.dll'`
+libtool: install:  dldir=/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/lib/`dirname ../bin/libxml2-2.dll`
+libtool: install:  test -d /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/lib/../bin || mkdir -p /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/lib/../bin
+libtool: install:  /bin/install -c .libs/libxml2-2.dll /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/lib/../bin/libxml2-2.dll
+libtool: install:  chmod a+x /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/lib/../bin/libxml2-2.dll
+libtool: install:  if test -n '' && test -n 'strip --strip-unneeded'; then eval 'strip --strip-unneeded /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/lib/../bin/libxml2-2.dll' || exit 0; fi
+libtool: install: /bin/install -c .libs/libxml2.lai /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/lib/libxml2.la
+test -z "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/bin" || /bin/mkdir -p "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/bin"
+  /bin/sh ./libtool   --mode=install /bin/install -c xmllint.exe xmlcatalog.exe '/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/bin'
+libtool: install: /bin/install -c .libs/xmllint.exe /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/bin/xmllint.exe
+libtool: install: /bin/install -c .libs/xmlcatalog.exe /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/bin/xmlcatalog.exe
+make[3]: Leaving directory `/devel/src/dependencies/libxml2/libxml2-2.9.0'
+make[2]: Leaving directory `/devel/src/dependencies/libxml2/libxml2-2.9.0'
+Making install in doc
+make[2]: Entering directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/doc'
+Making install in .
+make[3]: Entering directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/doc'
+make[4]: Entering directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/doc'
+make[4]: Nothing to be done for `install-exec-am'.
+/bin/mkdir -p /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/doc/libxml2-2.9.0/html
+test -z "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/man/man1" || /bin/mkdir -p "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/man/man1"
+/bin/install -c -m 0644 ./xml.html ./encoding.html ./FAQ.html ./structure.gif ./DOM.gif ./smallfootonly.gif ./redhat.gif ./libxml.gif ./w3c.png ./Libxml2-Logo-180x168.gif ./Libxml2-Logo-90x34.gif /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/doc/libxml2-2.9.0/html
+/bin/mkdir -p /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/doc/libxml2-2.9.0/html/html
+/bin/install -c -m 0644 ./html/*.html /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/doc/libxml2-2.9.0/html/html
+ /bin/install -c -m 644 xmllint.1 xmlcatalog.1 '/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/man/man1'
+/bin/install -c -m 0644 ./html/*.png /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/doc/libxml2-2.9.0/html/html
+/bin/mkdir -p /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/doc/libxml2-2.9.0/html/tutorial
+/bin/install -c -m 0644 ./tutorial/*.* \
+		/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/doc/libxml2-2.9.0/html/tutorial
+/bin/mkdir -p /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/doc/libxml2-2.9.0/html/tutorial/images
+/bin/install -c -m 0644 ./tutorial/images/*.* \
+		/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/doc/libxml2-2.9.0/html/tutorial/images
+/bin/mkdir -p /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/doc/libxml2-2.9.0/html/tutorial/images/callouts
+/bin/install -c -m 0644 ./tutorial/images/callouts/*.* \
+		/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/doc/libxml2-2.9.0/html/tutorial/images/callouts
+make[4]: Leaving directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/doc'
+make[3]: Leaving directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/doc'
+Making install in devhelp
+make[3]: Entering directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/doc/devhelp'
+make[4]: Entering directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/doc/devhelp'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/gtk-doc/html/libxml2" || /bin/mkdir -p "/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/gtk-doc/html/libxml2"
+ /bin/install -c -m 644 libxml2.devhelp general.html index.html libxml2-c14n.html libxml2-catalog.html libxml2-chvalid.html libxml2-debugXML.html libxml2-dict.html libxml2-DOCBparser.html libxml2-encoding.html libxml2-entities.html libxml2-globals.html libxml2-hash.html libxml2-HTMLparser.html libxml2-HTMLtree.html libxml2-list.html libxml2-nanoftp.html libxml2-nanohttp.html libxml2-parser.html libxml2-parserInternals.html libxml2-pattern.html libxml2-relaxng.html libxml2-SAX2.html libxml2-SAX.html libxml2-schemasInternals.html libxml2-schematron.html libxml2-threads.html libxml2-tree.html libxml2-uri.html libxml2-valid.html libxml2-xinclude.html libxml2-xlink.html libxml2-xmlautomata.html libxml2-xmlerror.html libxml2-xmlexports.html libxml2-xmlIO.html libxml2-xmlmemory.html libxml2-xmlmodule.html libxml2-xmlreader.html libxml2-xmlregexp.html '/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/gtk-doc/html/libxml2'
+ /bin/install -c -m 644 libxml2-xmlsave.html libxml2-xmlschemas.html libxml2-xmlschemastypes.html libxml2-xmlstring.html libxml2-xmlunicode.html libxml2-xmlversion.html libxml2-xmlwriter.html libxml2-xpath.html libxml2-xpathInternals.html libxml2-xpointer.html home.png left.png right.png up.png style.css '/devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/gtk-doc/html/libxml2'
+make[4]: Leaving directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/doc/devhelp'
+make[3]: Leaving directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/doc/devhelp'
+Making install in examples
+make[3]: Entering directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/doc/examples'
+  CC     io1.o
+  CC     io2.o
+  CC     parse2.o
+  CC     parse1.o
+  CC     parse3.o
+  CC     parse4.o
+  CC     reader1.o
+  CC     reader2.o
+  CC     reader3.o
+  CC     reader4.o
+  CC     testWriter.o
+  CC     tree1.o
+  CC     tree2.o
+  CC     xpath1.o
+  CC     xpath2.o
+  CCLD   io1.exe
+  CCLD   io2.exe
+  CCLD   parse1.exe
+  CCLD   parse2.exe
+  CCLD   parse3.exe
+  CCLD   parse4.exe
+  CCLD   reader1.exe
+  CCLD   reader2.exe
+  CCLD   reader3.exe
+  CCLD   reader4.exe
+  CCLD   testWriter.exe
+  CCLD   tree1.exe
+  CCLD   tree2.exe
+  CCLD   xpath1.exe
+  CCLD   xpath2.exe
+make[4]: Entering directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/doc/examples'
+make[4]: Nothing to be done for `install-exec-am'.
+/bin/mkdir -p /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/doc/libxml2-2.9.0/html
+/bin/install -c -m 0644 ./*.html ./*.c ./*.xml ./*.xsl ./*.res /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9/share/doc/libxml2-2.9.0/html
+make[4]: Leaving directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/doc/examples'
+make[3]: Leaving directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/doc/examples'
+make[2]: Leaving directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/doc'
+Making install in example
+make[2]: Entering directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/example'
+  CC     gjobread.o
+  CCLD   gjobread.exe
+make[3]: Entering directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/example'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/example'
+make[2]: Leaving directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/example'
+Making install in xstc
+make[2]: Entering directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/xstc'
+make[3]: Entering directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/xstc'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/xstc'
+make[2]: Leaving directory `/devel/src/dependencies/libxml2/libxml2-2.9.0/xstc'
+make[1]: Leaving directory `/devel/src/dependencies/libxml2/libxml2-2.9.0'
+++ cd /devel/target/01a1730a0a0698deb25f9d0e2cea0cf9
+++ zip /tmp/libxml2_2.9.0-1_win32.zip bin/libxml2-2.dll
+  adding: bin/libxml2-2.dll (deflated 56%)
+++ echo EXPORTS
+++ link -dump -exports bin/libxml2-2.dll
+++ grep -E '^ *[1-9][0-9]* *[0-9A-F][0-9A-F]* [0-9A-F][0-9A-F][0-9A-F][0-9A-F][0-9A-F][0-9A-F][0-9A-F][0-9A-F] '
+++ sed -e 's/^ *[^ ][^ ]* *[^ ][^ ]* ........ //' -e 's/ =.*//'
+++ lib -machine:X86 -def:lib/libxml2.def -name:libxml2-2.dll -out:lib/libxml2.lib
+Microsoft (R) Library Manager Version 8.00.40310.39
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library lib/libxml2.lib and object lib/libxml2.exp
+++ zip /tmp/libxml2-dev_2.9.0-1_win32.zip bin/xmlcatalog.exe bin/xmllint.exe
+  adding: bin/xmlcatalog.exe (deflated 69%)
+  adding: bin/xmllint.exe (deflated 65%)
+++ zip -r -D /tmp/libxml2-dev_2.9.0-1_win32.zip include
+  adding: include/libxml2/libxml/c14n.h (deflated 64%)
+  adding: include/libxml2/libxml/catalog.h (deflated 73%)
+  adding: include/libxml2/libxml/chvalid.h (deflated 78%)
+  adding: include/libxml2/libxml/debugXML.h (deflated 77%)
+  adding: include/libxml2/libxml/dict.h (deflated 68%)
+  adding: include/libxml2/libxml/DOCBparser.h (deflated 73%)
+  adding: include/libxml2/libxml/encoding.h (deflated 71%)
+  adding: include/libxml2/libxml/entities.h (deflated 71%)
+  adding: include/libxml2/libxml/globals.h (deflated 82%)
+  adding: include/libxml2/libxml/hash.h (deflated 79%)
+  adding: include/libxml2/libxml/HTMLparser.h (deflated 71%)
+  adding: include/libxml2/libxml/HTMLtree.h (deflated 75%)
+  adding: include/libxml2/libxml/list.h (deflated 72%)
+  adding: include/libxml2/libxml/nanoftp.h (deflated 68%)
+  adding: include/libxml2/libxml/nanohttp.h (deflated 72%)
+  adding: include/libxml2/libxml/parser.h (deflated 77%)
+  adding: include/libxml2/libxml/parserInternals.h (deflated 77%)
+  adding: include/libxml2/libxml/pattern.h (deflated 69%)
+  adding: include/libxml2/libxml/relaxng.h (deflated 78%)
+  adding: include/libxml2/libxml/SAX.h (deflated 78%)
+  adding: include/libxml2/libxml/SAX2.h (deflated 79%)
+  adding: include/libxml2/libxml/schemasInternals.h (deflated 79%)
+  adding: include/libxml2/libxml/schematron.h (deflated 75%)
+  adding: include/libxml2/libxml/threads.h (deflated 64%)
+  adding: include/libxml2/libxml/tree.h (deflated 80%)
+  adding: include/libxml2/libxml/uri.h (deflated 63%)
+  adding: include/libxml2/libxml/valid.h (deflated 81%)
+  adding: include/libxml2/libxml/xinclude.h (deflated 72%)
+  adding: include/libxml2/libxml/xlink.h (deflated 71%)
+  adding: include/libxml2/libxml/xmlautomata.h (deflated 83%)
+  adding: include/libxml2/libxml/xmlerror.h (deflated 77%)
+  adding: include/libxml2/libxml/xmlexports.h (deflated 76%)
+  adding: include/libxml2/libxml/xmlIO.h (deflated 80%)
+  adding: include/libxml2/libxml/xmlmemory.h (deflated 74%)
+  adding: include/libxml2/libxml/xmlmodule.h (deflated 55%)
+  adding: include/libxml2/libxml/xmlreader.h (deflated 81%)
+  adding: include/libxml2/libxml/xmlregexp.h (deflated 73%)
+  adding: include/libxml2/libxml/xmlsave.h (deflated 65%)
+  adding: include/libxml2/libxml/xmlschemas.h (deflated 74%)
+  adding: include/libxml2/libxml/xmlschemastypes.h (deflated 78%)
+  adding: include/libxml2/libxml/xmlstring.h (deflated 84%)
+  adding: include/libxml2/libxml/xmlunicode.h (deflated 84%)
+  adding: include/libxml2/libxml/xmlversion.h (deflated 76%)
+  adding: include/libxml2/libxml/xmlwriter.h (deflated 91%)
+  adding: include/libxml2/libxml/xpath.h (deflated 73%)
+  adding: include/libxml2/libxml/xpathInternals.h (deflated 83%)
+  adding: include/libxml2/libxml/xpointer.h (deflated 72%)
+++ zip /tmp/libxml2-dev_2.9.0-1_win32.zip lib/libxml2.def lib/libxml2.lib lib/libxml2.dll.a
+  adding: lib/libxml2.def (deflated 76%)
+  adding: lib/libxml2.lib (deflated 84%)
+  adding: lib/libxml2.dll.a (deflated 94%)
+++ zip /tmp/libxml2-dev_2.9.0-1_win32.zip lib/pkgconfig/libxml-2.0.pc
+  adding: lib/pkgconfig/libxml-2.0.pc (deflated 32%)
+++ zip -r -D /tmp/libxml2-dev_2.9.0-1_win32.zip share
+  adding: share/aclocal/libxml.m4 (deflated 68%)
+  adding: share/doc/libxml2-2.9.0/Copyright (deflated 44%)
+  adding: share/doc/libxml2-2.9.0/examples/testHTML.c (deflated 78%)
+  adding: share/doc/libxml2-2.9.0/examples/testSAX.c (deflated 80%)
+  adding: share/doc/libxml2-2.9.0/examples/testXPath.c (deflated 66%)
+  adding: share/doc/libxml2-2.9.0/examples/xmllint.c (deflated 80%)
+  adding: share/doc/libxml2-2.9.0/html/DOM.gif (stored 0%)
+  adding: share/doc/libxml2-2.9.0/html/encoding.html (deflated 63%)
+  adding: share/doc/libxml2-2.9.0/html/examples.xml (deflated 87%)
+  adding: share/doc/libxml2-2.9.0/html/examples.xsl (deflated 75%)
+  adding: share/doc/libxml2-2.9.0/html/FAQ.html (deflated 66%)
+  adding: share/doc/libxml2-2.9.0/html/html/book1.html (deflated 71%)
+  adding: share/doc/libxml2-2.9.0/html/html/home.png (stored 0%)
+  adding: share/doc/libxml2-2.9.0/html/html/index.html (deflated 71%)
+  adding: share/doc/libxml2-2.9.0/html/html/left.png (stored 0%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-c14n.html (deflated 81%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-catalog.html (deflated 86%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-chvalid.html (deflated 82%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-debugXML.html (deflated 87%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-dict.html (deflated 80%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-DOCBparser.html (deflated 81%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-encoding.html (deflated 83%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-entities.html (deflated 85%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-globals.html (deflated 86%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-hash.html (deflated 90%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-HTMLparser.html (deflated 87%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-HTMLtree.html (deflated 85%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-lib.html (deflated 71%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-list.html (deflated 86%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-nanoftp.html (deflated 82%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-nanohttp.html (deflated 82%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-parser.html (deflated 88%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-parserInternals.html (deflated 85%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-pattern.html (deflated 82%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-relaxng.html (deflated 86%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-SAX.html (deflated 87%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-SAX2.html (deflated 87%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-schemasInternals.html (deflated 85%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-schematron.html (deflated 82%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-threads.html (deflated 79%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-tree.html (deflated 88%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-uri.html (deflated 79%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-valid.html (deflated 90%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-xinclude.html (deflated 82%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-xlink.html (deflated 83%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-xmlautomata.html (deflated 89%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-xmlerror.html (deflated 83%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-xmlexports.html (deflated 71%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-xmlIO.html (deflated 88%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-xmlmemory.html (deflated 85%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-xmlmodule.html (deflated 74%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-xmlreader.html (deflated 90%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-xmlregexp.html (deflated 86%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-xmlsave.html (deflated 81%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-xmlschemas.html (deflated 86%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-xmlschemastypes.html (deflated 88%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-xmlstring.html (deflated 86%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-xmlunicode.html (deflated 93%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-xmlversion.html (deflated 79%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-xmlwriter.html (deflated 94%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-xpath.html (deflated 85%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-xpathInternals.html (deflated 90%)
+  adding: share/doc/libxml2-2.9.0/html/html/libxml-xpointer.html (deflated 86%)
+  adding: share/doc/libxml2-2.9.0/html/html/right.png (stored 0%)
+  adding: share/doc/libxml2-2.9.0/html/html/up.png (stored 0%)
+  adding: share/doc/libxml2-2.9.0/html/index.html (deflated 83%)
+  adding: share/doc/libxml2-2.9.0/html/io1.c (deflated 59%)
+  adding: share/doc/libxml2-2.9.0/html/io1.res (deflated 27%)
+  adding: share/doc/libxml2-2.9.0/html/io2.c (deflated 49%)
+  adding: share/doc/libxml2-2.9.0/html/io2.res (deflated 5%)
+  adding: share/doc/libxml2-2.9.0/html/libxml.gif (deflated 1%)
+  adding: share/doc/libxml2-2.9.0/html/Libxml2-Logo-180x168.gif (deflated 2%)
+  adding: share/doc/libxml2-2.9.0/html/Libxml2-Logo-90x34.gif (deflated 0%)
+  adding: share/doc/libxml2-2.9.0/html/parse1.c (deflated 50%)
+  adding: share/doc/libxml2-2.9.0/html/parse2.c (deflated 57%)
+  adding: share/doc/libxml2-2.9.0/html/parse3.c (deflated 52%)
+  adding: share/doc/libxml2-2.9.0/html/parse4.c (deflated 60%)
+  adding: share/doc/libxml2-2.9.0/html/reader1.c (deflated 58%)
+  adding: share/doc/libxml2-2.9.0/html/reader1.res (deflated 60%)
+  adding: share/doc/libxml2-2.9.0/html/reader2.c (deflated 58%)
+  adding: share/doc/libxml2-2.9.0/html/reader3.c (deflated 59%)
+  adding: share/doc/libxml2-2.9.0/html/reader3.res (deflated 65%)
+  adding: share/doc/libxml2-2.9.0/html/reader4.c (deflated 60%)
+  adding: share/doc/libxml2-2.9.0/html/reader4.res (deflated 51%)
+  adding: share/doc/libxml2-2.9.0/html/redhat.gif (stored 0%)
+  adding: share/doc/libxml2-2.9.0/html/smallfootonly.gif (deflated 1%)
+  adding: share/doc/libxml2-2.9.0/html/structure.gif (stored 0%)
+  adding: share/doc/libxml2-2.9.0/html/test1.xml (stored 0%)
+  adding: share/doc/libxml2-2.9.0/html/test2.xml (deflated 44%)
+  adding: share/doc/libxml2-2.9.0/html/test3.xml (deflated 80%)
+  adding: share/doc/libxml2-2.9.0/html/testWriter.c (deflated 91%)
+  adding: share/doc/libxml2-2.9.0/html/tree1.c (deflated 53%)
+  adding: share/doc/libxml2-2.9.0/html/tree1.res (deflated 64%)
+  adding: share/doc/libxml2-2.9.0/html/tree2.c (deflated 59%)
+  adding: share/doc/libxml2-2.9.0/html/tree2.res (deflated 49%)
+  adding: share/doc/libxml2-2.9.0/html/tst.xml (deflated 48%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/apa.html (deflated 62%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/apb.html (deflated 63%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/apc.html (deflated 63%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/apd.html (deflated 63%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/ape.html (deflated 62%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/apf.html (deflated 62%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/apg.html (deflated 62%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/aph.html (deflated 65%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/api.html (deflated 59%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/ar01s02.html (deflated 65%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/ar01s03.html (deflated 68%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/ar01s04.html (deflated 69%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/ar01s05.html (deflated 71%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/ar01s06.html (deflated 60%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/ar01s07.html (deflated 62%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/ar01s08.html (deflated 61%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/ar01s09.html (deflated 68%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/blank.png (deflated 67%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/callouts/1.png (deflated 4%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/callouts/10.png (deflated 3%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/callouts/2.png (deflated 3%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/callouts/3.png (deflated 3%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/callouts/4.png (deflated 3%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/callouts/5.png (deflated 3%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/callouts/6.png (deflated 3%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/callouts/7.png (deflated 3%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/callouts/8.png (deflated 3%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/callouts/9.png (deflated 3%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/caution.png (deflated 47%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/draft.png (deflated 4%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/home.png (deflated 61%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/important.png (stored 0%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/next.png (deflated 61%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/note.png (deflated 0%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/prev.png (deflated 62%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/tip.png (deflated 1%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/toc-blank.png (deflated 11%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/toc-minus.png (deflated 6%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/toc-plus.png (deflated 5%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/up.png (deflated 65%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/images/warning.png (deflated 47%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/includeaddattribute.c (deflated 54%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/includeaddkeyword.c (deflated 57%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/includeconvert.c (deflated 63%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/includegetattribute.c (deflated 55%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/includekeyword.c (deflated 59%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/includexpath.c (deflated 59%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/index.html (deflated 69%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/ix01.html (deflated 69%)
+  adding: share/doc/libxml2-2.9.0/html/tutorial/xmltutorial.pdf (deflated 44%)
+  adding: share/doc/libxml2-2.9.0/html/w3c.png (stored 0%)
+  adding: share/doc/libxml2-2.9.0/html/writer.xml (deflated 47%)
+  adding: share/doc/libxml2-2.9.0/html/xml.html (deflated 68%)
+  adding: share/doc/libxml2-2.9.0/html/xpath1.c (deflated 68%)
+  adding: share/doc/libxml2-2.9.0/html/xpath1.res (deflated 63%)
+  adding: share/doc/libxml2-2.9.0/html/xpath2.c (deflated 61%)
+  adding: share/doc/libxml2-2.9.0/html/xpath2.res (deflated 76%)
+  adding: share/gtk-doc/html/libxml2/general.html (deflated 70%)
+  adding: share/gtk-doc/html/libxml2/home.png (stored 0%)
+  adding: share/gtk-doc/html/libxml2/index.html (deflated 63%)
+  adding: share/gtk-doc/html/libxml2/left.png (stored 0%)
+  adding: share/gtk-doc/html/libxml2/libxml2-c14n.html (deflated 84%)
+  adding: share/gtk-doc/html/libxml2/libxml2-catalog.html (deflated 88%)
+  adding: share/gtk-doc/html/libxml2/libxml2-chvalid.html (deflated 88%)
+  adding: share/gtk-doc/html/libxml2/libxml2-debugXML.html (deflated 89%)
+  adding: share/gtk-doc/html/libxml2/libxml2-dict.html (deflated 83%)
+  adding: share/gtk-doc/html/libxml2/libxml2-DOCBparser.html (deflated 84%)
+  adding: share/gtk-doc/html/libxml2/libxml2-encoding.html (deflated 85%)
+  adding: share/gtk-doc/html/libxml2/libxml2-entities.html (deflated 87%)
+  adding: share/gtk-doc/html/libxml2/libxml2-globals.html (deflated 90%)
+  adding: share/gtk-doc/html/libxml2/libxml2-hash.html (deflated 92%)
+  adding: share/gtk-doc/html/libxml2/libxml2-HTMLparser.html (deflated 88%)
+  adding: share/gtk-doc/html/libxml2/libxml2-HTMLtree.html (deflated 88%)
+  adding: share/gtk-doc/html/libxml2/libxml2-list.html (deflated 88%)
+  adding: share/gtk-doc/html/libxml2/libxml2-nanoftp.html (deflated 85%)
+  adding: share/gtk-doc/html/libxml2/libxml2-nanohttp.html (deflated 85%)
+  adding: share/gtk-doc/html/libxml2/libxml2-parser.html (deflated 89%)
+  adding: share/gtk-doc/html/libxml2/libxml2-parserInternals.html (deflated 86%)
+  adding: share/gtk-doc/html/libxml2/libxml2-pattern.html (deflated 85%)
+  adding: share/gtk-doc/html/libxml2/libxml2-relaxng.html (deflated 88%)
+  adding: share/gtk-doc/html/libxml2/libxml2-SAX.html (deflated 89%)
+  adding: share/gtk-doc/html/libxml2/libxml2-SAX2.html (deflated 89%)
+  adding: share/gtk-doc/html/libxml2/libxml2-schemasInternals.html (deflated 88%)
+  adding: share/gtk-doc/html/libxml2/libxml2-schematron.html (deflated 85%)
+  adding: share/gtk-doc/html/libxml2/libxml2-threads.html (deflated 81%)
+  adding: share/gtk-doc/html/libxml2/libxml2-tree.html (deflated 89%)
+  adding: share/gtk-doc/html/libxml2/libxml2-uri.html (deflated 82%)
+  adding: share/gtk-doc/html/libxml2/libxml2-valid.html (deflated 91%)
+  adding: share/gtk-doc/html/libxml2/libxml2-xinclude.html (deflated 86%)
+  adding: share/gtk-doc/html/libxml2/libxml2-xlink.html (deflated 86%)
+  adding: share/gtk-doc/html/libxml2/libxml2-xmlautomata.html (deflated 92%)
+  adding: share/gtk-doc/html/libxml2/libxml2-xmlerror.html (deflated 82%)
+  adding: share/gtk-doc/html/libxml2/libxml2-xmlexports.html (deflated 73%)
+  adding: share/gtk-doc/html/libxml2/libxml2-xmlIO.html (deflated 89%)
+  adding: share/gtk-doc/html/libxml2/libxml2-xmlmemory.html (deflated 87%)
+  adding: share/gtk-doc/html/libxml2/libxml2-xmlmodule.html (deflated 76%)
+  adding: share/gtk-doc/html/libxml2/libxml2-xmlreader.html (deflated 91%)
+  adding: share/gtk-doc/html/libxml2/libxml2-xmlregexp.html (deflated 88%)
+  adding: share/gtk-doc/html/libxml2/libxml2-xmlsave.html (deflated 85%)
+  adding: share/gtk-doc/html/libxml2/libxml2-xmlschemas.html (deflated 87%)
+  adding: share/gtk-doc/html/libxml2/libxml2-xmlschemastypes.html (deflated 89%)
+  adding: share/gtk-doc/html/libxml2/libxml2-xmlstring.html (deflated 88%)
+  adding: share/gtk-doc/html/libxml2/libxml2-xmlunicode.html (deflated 94%)
+  adding: share/gtk-doc/html/libxml2/libxml2-xmlversion.html (deflated 84%)
+  adding: share/gtk-doc/html/libxml2/libxml2-xmlwriter.html (deflated 95%)
+  adding: share/gtk-doc/html/libxml2/libxml2-xpath.html (deflated 87%)
+  adding: share/gtk-doc/html/libxml2/libxml2-xpathInternals.html (deflated 91%)
+  adding: share/gtk-doc/html/libxml2/libxml2-xpointer.html (deflated 88%)
+  adding: share/gtk-doc/html/libxml2/libxml2.devhelp (deflated 90%)
+  adding: share/gtk-doc/html/libxml2/right.png (stored 0%)
+  adding: share/gtk-doc/html/libxml2/style.css (deflated 58%)
+  adding: share/gtk-doc/html/libxml2/up.png (stored 0%)
+  adding: share/man/man1/xml2-config.1 (deflated 52%)
+  adding: share/man/man1/xmlcatalog.1 (deflated 69%)
+  adding: share/man/man1/xmllint.1 (deflated 64%)
+  adding: share/man/man3/libxml.3 (deflated 49%)
